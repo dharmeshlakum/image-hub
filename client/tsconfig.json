@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "target": "ESNext",
+      "module": "ESNext",                     
+      "lib": ["dom", "dom.iterable", "esnext"], 
+      "esModuleInterop": true,                
+      "allowSyntheticDefaultImports": true,   
+      "strict": true,                         
+      "moduleResolution": "node",             
+      "jsx": "react-jsx",
+    },
+    "include": [
+      "src"  
+    ],
+    "exclude": [
+      "node_modules"  
+    ]
+  }
+  
