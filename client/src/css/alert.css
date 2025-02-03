@@ -1,0 +1,18 @@
+.alert-component-element{
+    padding: 15px 20px;
+    border: 1px solid red;
+    border-radius: 10px;
+    max-width: 50%;
+    box-shadow: 0px 0px 10px purple;
+    position: absolute;
+    top: -500px;
+    left: 50%;
+    text-transform: capitalize;
+    font-weight: bolder;
+    text-shadow:  0 1px 10px purple;
+    transform: translateX(-50%);
+    transition: all 1s linear;
+}
+.show-alert-message{
+    top: 10px;
+}
