@@ -3,7 +3,29 @@
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
- padding: 0;
- box-sizing: border-box;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+body {
+  font-size: 15px;
+  color: #000000;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+button {
+  background: transparent;
+  border: 1px solid transparent;
+  outline: none;
+  font-family: inherit;
+  color: inherit;
+  transition: all .5s linear;
+}
+
+a {
+  color: inherit;
+  text-decoration: 1px underline transparent;
+  transition: all .5s linear;
+}
