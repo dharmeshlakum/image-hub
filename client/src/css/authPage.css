@@ -1,0 +1,92 @@
+
+.auth-main-container{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("https://c0.wallpaperflare.com/preview/485/486/379/background-colors-texture-detail.jpg") no-repeat;
+    background-size: cover;
+    background-position: top left;
+}
+.auth-inner-container-element{
+    padding: 20px;
+    display: flex;
+    flex-direction:column;
+    width: 30%;
+    height: max-content;
+    box-shadow: 0 1px 10px #0842e1;
+    border-radius: 10px;
+}
+.auth-heading-element{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0 1px 1px #fa0012, 0 -1px 1px #a000ea;
+    margin-bottom: 10px;
+}
+.auth-input-container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: max-content;
+    margin-bottom: 10px;
+}
+.auth-input-container label{
+    font-size: 12px;
+    margin-bottom: 2px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.auth-input-container input{
+    background: transparent;
+    outline: none;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    height: 35px;
+    padding: 0 10px;
+}
+.auth-input-container input::placeholder{
+    color: #e3e3e3;
+}
+.pass-visibilty-btn{
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 65%;
+    transform: translateY(-50%);
+}
+.forget-pass-element{
+    color: #e3e3e3;
+    font-size: 13px;
+    font-weight: bold;
+}
+.forget-pass-element:hover{
+    text-decoration: 1px underline #fff;
+}
+.auth-submit-btn{
+    padding: 10px 20px;
+    width: max-content;
+    background: #fff;
+    border-radius: 50px;
+    margin: 10px 0;
+    font-weight: bold;
+    font-size: 13px;
+    align-self: center;
+    cursor: pointer;
+}
+.auth-submit-btn:hover{
+    box-shadow: 0 2px 10px purple;
+}
+.redirection-link{
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+}
+.redirection-link-element:hover{
+    color: #f0edf2;
+    text-decoration: underline;
+}
