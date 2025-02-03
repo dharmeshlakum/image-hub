@@ -33,6 +33,7 @@ const multerInstance = multer({
     }
 });
 
+// Middleware : Profile Image Uploading
 const profileImgUploadingMW = (req: Request, res: Response, next: NextFunction) => {
 
     try {

@@ -34,6 +34,7 @@ const multerInstance = multer({
     }
 });
 
+// Middleware : Post Image Uploading
 const postImgUploaingMW = (req: Request, res: Response, next: NextFunction) => {
 
     try {
