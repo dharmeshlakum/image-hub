@@ -2,17 +2,19 @@
     padding: 15px 20px;
     border: 1px solid red;
     border-radius: 10px;
-    max-width: 50%;
-    box-shadow: 0px 0px 10px purple;
+    width: 50%;
+    box-shadow: 0px 0px 10px rgba(128, 0, 128, 0.497);
     position: absolute;
+    text-align: center;
     top: -500px;
     left: 50%;
+    background: #fff;
     z-index: 100;
     text-transform: capitalize;
     font-weight: bolder;
     text-shadow:  0 1px 10px purple;
     transform: translateX(-50%);
-    transition: all .68s linear;
+    transition: all .5s linear;
 }
 .show-alert-message{
     top: 10px;
