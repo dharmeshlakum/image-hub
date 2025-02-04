@@ -69,7 +69,7 @@ const Login: React.FC = () => {
                         name="userInput"
                         value={input.userInput}
                         id="userInput"
-                        autoCorrect="off"
+                        autoComplete="off"
                         placeholder="type your email or username here"
                         onChange={(event) => handleChangeFN(event)}
                         className="auth-input-element"

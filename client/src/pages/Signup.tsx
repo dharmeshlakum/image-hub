@@ -80,7 +80,7 @@ const Signup: React.FC = () => {
                         name="username"
                         value={input.username}
                         id="userInput"
-                        autoCorrect="off"
+                        autoComplete="off"
                         placeholder="select username for your profile"
                         onChange={(event) => handleChangeFN(event)}
                         className="auth-input-element"
@@ -93,7 +93,7 @@ const Signup: React.FC = () => {
                         name="emailAddress"
                         value={input.emailAddress}
                         id="emailAddress"
-                        autoCorrect="off"
+                        autoComplete="off"
                         placeholder="Enter your email address here"
                         onChange={(event) => handleChangeFN(event)}
                         className="auth-input-element"
@@ -106,7 +106,7 @@ const Signup: React.FC = () => {
                         name="fullName"
                         value={input.fullName}
                         id="fullName"
-                        autoCorrect="off"
+                        autoComplete="off"
                         placeholder="Enter your name here"
                         onChange={(event) => handleChangeFN(event)}
                         className="auth-input-element"
