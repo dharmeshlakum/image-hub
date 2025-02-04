@@ -35,8 +35,7 @@ const Login: React.FC = () => {
 
     // Function : Handle Submit Event
     const handleSubmitFN = () => {
-        setAlertMessageFN("HEllo")
-
+        
         if (!input.password || !input.userInput) {
             setAlertMessageFN("All fields are required !");
             return;
