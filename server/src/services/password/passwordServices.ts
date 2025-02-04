@@ -43,14 +43,14 @@ const passwordVlidationFN = (password: string): ReturnTypes => {
         }
     }
 
-    if (!/[a-zA-Z]/.test) {
+    if (!/[a-zA-Z]/.test(password)) {
         return {
             isValid: false,
             message: "Password must contain one alphabet and one numerical value !"
         }
     }
 
-    if (!/[0-9]/.test) {
+    if (!/[0-9]/.test(password)) {
         return {
             isValid: false,
             message: "Password must contain one alphabet and one numerical value !"
